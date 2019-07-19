@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	height: 2000px;
+}
+
+a.text-light:hover {
+	color: orange!important;
+}
+
+.bg-transparent {
+	background-color: rgba(0, 0, 0, .3)!important;
+	transition: all .3s;
+}
+
+/*Apper menu-right*/
+
+#menu-right {
+	position: fixed!important;
+	right: 0;
+	height: 100%;
+	width: 250px;
+	animation-name: last;
+	animation-duration: .3s;
+	z-index: 2;
+}
+
+ul { 
+	list-style: none;
+}
+
+i:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+@keyframes last {
+	from {
+	  width: 0;
+	}
+
+	to {
+	  width: 250px;
+	}
+}
+
+/*Scroll*/
+[data-scroll='dNone'] {
+  display: none!important;
+  transition: all .3s;
+}
+
+[data-scroll='dBg'] {
+  background-color: rgba(0, 0, 0, 1)!important;
+  transition: all .3s;
+}
+
+[data-scroll='dBg'] .navbar .navbar-brand img {
+  height: 80%;
+  width: 70%;
+}
