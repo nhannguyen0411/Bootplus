@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Header</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./navigation-st.css">
+	<script src="https://kit.fontawesome.com/a58ac99150.js"></script>
+
+</head>
+<body>
+<div id="scroll-bg" class="fixed-top bg-transparent">
+	<div id="menu-right" class="alert alert-secondary alert-dismissible fade show p-0 d-none" role="alert">
+      <div class="d-flex justify-content-center px-4 py-2">
+        <i id="del-right" class="fas fa-times fa-2x"></i>
+      </div>
+      <div id="todo-list" class="py-2 px-4">
+
+      </div>
+    </div>
+    <div id="remove-effect" class="bbb d-none">
+    	<div class="searching d-table position-fixed h-100 w-100">
+	    	<div class="d-table-cell align-middle">
+	    		<div class="container">
+	    			<form role="search">
+					  <div class="form-group">
+					    <input type="search" class="form-control border-primary text-white" id="exampleFormControlInput1" placeholder="Type to search">
+					  </div>
+					</form>
+	    		</div>
+	    	</div>
+	    </div>
+    </div>
+    <div id='nav-parent' class="container">
+      <div id="nav-top" class="row py-1 py-md-2 border-bottom border-secondary justify-content-md-start d-none d-md-flex">
+        <nav class="nav px-lg-2 col-md-3 col-lg-4">
+          <a href="#" class="text-light ml-md-0 ml-lg-2 pr-lg-2 px-md-1 nav-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light ml-md-0 ml-lg-2 pr-lg-2 px-md-1 nav-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light ml-md-0 ml-lg-2 pr-lg-2 px-md-1 nav-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light ml-md-0 ml-lg-2 pr-lg-2 px-md-1 nav-link"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="text-light ml-md-0 ml-lg-2 pr-lg-2 px-md-1 nav-link"><i class="fab fa-pinterest"></i></a>
+          <a href="#" class="text-light ml-md-0 ml-lg-2 pr-lg-2 px-md-1 nav-link"><i class="fab fa-linkedin-in"></i></a>
+        </nav>
+        <nav class="nav col-md-9 col-lg-8 justify-content-md-end">
+          <a href="#" class="text-light p-2 nav-link"><i class="far fa-envelope fa-sm"></i> support@info.com </a>
+          <a href="#" class="text-light p-2 nav-link"><i class="fas fa-phone fa-xs"></i> +012-3456-789 </a>
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light p-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-globe-americas fa-xs"></i> language
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Vietnamese</a>
+                  <a class="dropdown-item" href="#">France</a>
+                </div>
+          </div>
+        </nav>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark py-1 py-md-2">
+        <a class="navbar-brand" href="#"><img src="http://bootstrapdevelop.com/tf/finnoplus/images/logo.png" class="100h 100w"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link text-light ml-2 active">HOME <span class="sr-only">(current)</span></a>
+            <a href="#" class="nav-item nav-link text-light ml-2">SERVICE</a>
+            <a href="#" class="nav-item nav-link text-light ml-2">ABOUT</a>
+            <a href="#" class="nav-item nav-link text-light ml-2">NEWS</a>
+            <a href="#" class="nav-item nav-link text-light ml-2">FAQ</a>
+            <a href="#" class="nav-item nav-link text-light ml-2">CONTANT</a>
+            <a href="#" id="menu" class="nav-item nav-link text-light ml-2"><i class="fas fa-bars fa-lg"></i></a>
+            <a href="#" class="nav-item nav-link text-light ml-2"><i class="fas fa-cart-arrow-down fa-lg"></i></a>
+            <a id="search" href="#" class="nav-item nav-link text-light ml-2"><i class="fas fa-search fa-lg"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <script src="menu-right.js"></script>
+  <script src="scroll-navigation.js"></script>
+  <script src="search-navigation.js"></script>
+</body>
+</html>
