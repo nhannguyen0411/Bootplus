@@ -14,6 +14,39 @@ a.text-light:hover {
 	transition: all .3s;
 }
 
+/*Apper search*/
+.bg-color {
+	background-color: rgba(0, 32, 110, .9);
+	z-index: 2;
+}
+
+.form-control {
+	background-color: rgba(0, 32, 110, .7);
+	height: 4.5rem;
+	border: 2px solid white!important;
+	border-left: 0px!important;
+	border-right: 0px!important;
+	border-width: medium;
+	text-align: center;
+	font-size: 30px;
+}
+
+.form-control:focus {
+	background-color: rgba(0, 32, 110, .5);
+	box-shadow: none;
+}
+
+.input-float {
+  z-index: 3;
+  right: 20%;
+  top: 40%;
+}
+
+#remove-effect {
+  z-index: 2;
+}
+
+
 /*Apper menu-right*/
 
 #menu-right {
