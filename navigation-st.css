@@ -93,3 +93,22 @@ i:hover {
   height: 80%;
   width: 70%;
 }
+
+/*Media query*/
+@media (min-width: 1200px) {
+	.input-float {
+		right: 20%!important;
+	}
+}
+
+@media (max-width: 991px) {
+	.input-float {
+		right: 3%!important;
+	}
+}
+
+@media (max-width: 415px) {
+	.input-float {
+		right: 0%!important;
+	}
+}
