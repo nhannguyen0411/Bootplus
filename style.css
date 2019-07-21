@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	height: 2000px;
+}
+
+a.text-light:hover {
+	color: orange!important;
+}
+
+.bg-transparent {
+	background-color: rgba(0, 0, 0, .3)!important;
+	transition: all .3s;
+}
+
+/*Apper search*/
+.bg-color {
+	background-color: rgba(0, 32, 110, .9);
+	z-index: 2;
+}
+
+.form-control {
+	background-color: rgba(0, 32, 110, .7);
+	height: 4.5rem;
+	border: 2px solid white!important;
+	border-left: 0px!important;
+	border-right: 0px!important;
+	border-width: medium;
+	text-align: center;
+	font-size: 30px;
+}
+
+.form-control:focus {
+	background-color: rgba(0, 32, 110, .5);
+	box-shadow: none;
+}
+
+.input-float {
+  z-index: 3;
+  right: 20%;
+  top: 40%;
+}
+
+#remove-effect {
+  z-index: 2;
+}
+
+
+/*Apper menu-right*/
+
+#menu-right {
+	position: fixed!important;
+	right: 0;
+	height: 100%;
+	width: 250px;
+	animation-name: last;
+	animation-duration: .3s;
+	z-index: 2;
+}
+
+ul { 
+	list-style: none;
+}
+
+i:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+@keyframes last {
+	from {
+	  width: 0;
+	}
+
+	to {
+	  width: 250px;
+	}
+}
+
+/*Scroll*/
+[data-scroll='dNone'] {
+  display: none!important;
+  transition: all .3s;
+}
+
+[data-scroll='dBg'] {
+  background-color: rgba(0, 0, 0, 1)!important;
+  transition: all .3s;
+}
+
+[data-scroll='dBg'] .navbar .navbar-brand img {
+  height: 80%;
+  width: 70%;
+}
+
+/*Media query*/
+@media (min-width: 1200px) {
+	.input-float {
+		right: 20%!important;
+	}
+}
+
+@media (max-width: 991px) {
+	.input-float {
+		right: 3%!important;
+	}
+}
+
+@media (max-width: 415px) {
+	.input-float {
+		right: 0%!important;
+	}
+}
