@@ -1,0 +1,49 @@
+.header {
+  background-image: url(http://bootstrapdevelop.com/tf/finnoplus//images/hiro/img_01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 991px){
+  .input-float {
+    right: 3%!important;
+  }
+
+  .h1 {
+    font-size: 40px!important;
+  }
+
+  .block-width {
+    max-width: 760px!important;
+  }
+}
+
+@media (min-width: 991px) {
+  .h1 {
+    font-size: 80px!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .input-float {
+    right: 20%!important;
+  }
+}
+
+@media (max-width: 415px) {
+  .input-float {
+    right: 0%!important;
+  }
+
+  .h1 {
+    font-size: 40px!important;
+  }
+
+  .h3 {
+    font-size: 16px!important;
+  }
+
+  .h2 {
+    font-size: 25px!important;
+  }
+}
