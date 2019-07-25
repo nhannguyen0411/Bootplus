@@ -78,6 +78,39 @@ a.text-light:hover {
   width: 15%!important;
 }
 
+/*Main our service*/
+
+.p-100-70 {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+
+.customize {
+  height: 5px;
+  width: 5px;
+  background-color: #00206e;
+}
+
+.customize::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #00206e;
+  top: 1px;
+  left: -55px;
+}
+
+.customize::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #00206e;
+  top: 1px;
+  right: -55px;
+}
+
 /*Apper menu-right*/
 
 #menu-right {
@@ -138,6 +171,11 @@ i:hover {
   .block-width {
     max-width: 760px!important;
   }
+
+  .p-100-70 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
 }
 
 @media (min-width: 991px) {
@@ -167,5 +205,10 @@ i:hover {
 
   .h2 {
     font-size: 25px!important;
+  }
+
+  .p-100-70 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
   }
 }
