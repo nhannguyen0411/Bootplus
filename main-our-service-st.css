@@ -1,0 +1,49 @@
+.card {
+	border: 0;
+}
+
+.p-100-70 {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+@media (max-width: 991px){
+    .h1 {
+      font-size: 40px!important;
+    }
+
+    .header h6 {
+      white-space: nowrap;
+    }
+
+    .block-width {
+      max-width: 760px!important;
+    }
+
+    .p-100-70 {
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .h1 {
+      font-size: 40px!important;
+    }
+
+    .h3 {
+      font-size: 16px!important;
+    }
+
+    .h2 {
+      font-size: 25px!important;
+    }
+
+    .block-width {
+      max-width: 760px!important;
+    }
+
+    .p-100-70 {
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+    }
+}
