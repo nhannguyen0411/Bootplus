@@ -1,0 +1,34 @@
+.card {
+  border: 0;
+}
+
+.block-width {
+  max-width: 570px;
+}
+
+.p-100-70 {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 415px) {
+  .block-width {
+    max-width: 760px!important;
+  }
+
+  .p-100-70 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 991px){
+  .block-width {
+    max-width: 760px!important;
+  }
+
+  .p-100-70 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
