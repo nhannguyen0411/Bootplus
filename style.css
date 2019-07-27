@@ -111,6 +111,12 @@ a.text-light:hover {
   right: -55px;
 }
 
+/*main our company*/
+
+.block-width {
+  max-width: 570px;
+}
+
 /*Apper menu-right*/
 
 #menu-right {
@@ -205,6 +211,10 @@ i:hover {
 
   .h2 {
     font-size: 25px!important;
+  }
+
+  .block-width {
+    max-width: 760px!important;
   }
 
   .p-100-70 {
