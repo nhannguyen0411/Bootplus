@@ -1,0 +1,29 @@
+.card {
+	border: 0;
+}
+
+.customize {
+  height: 5px;
+  width: 5px;
+  background-color: #00206e;
+}
+
+.customize::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #00206e;
+  top: 1px;
+  left: -55px;
+}
+
+.customize::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #00206e;
+  top: 1px;
+  right: -55px;
+}
