@@ -1,0 +1,39 @@
+.item-icon {
+	height: 50px!important;
+	width: 50px!important;
+	left: 50px!important;
+	top: 25px!important;
+}
+
+.w-15 {
+	width: 15%!important;
+}
+
+.overlay-carousel {
+	background-color: rgba(0, 32, 110, .9);
+	z-index: 2;
+}
+
+.pseu {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	background-color: rgba(14, 14, 15, .8);
+	left: 50px;
+	bottom: 16px;
+}
+
+.pseu::after {
+	content: '';
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background-color: rgba(0, 32, 110, .9);
+	left: 15px;
+	top: 0px;
+	transform: skewX(-45deg);
+}
+
+.bg-bluer {
+	background-color: rgba(14, 14, 15, .8);
+}
