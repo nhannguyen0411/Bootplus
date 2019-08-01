@@ -117,6 +117,17 @@ a.text-light:hover {
   max-width: 570px;
 }
 
+/*Main our latest new*/
+
+.overlay-new {
+  background-color: rgba(0, 0, 0, .6);
+  z-index: 2;
+}
+
+.border-secondary {
+  border-color: #DDD!important;
+}
+
 /*Apper menu-right*/
 
 #menu-right {
