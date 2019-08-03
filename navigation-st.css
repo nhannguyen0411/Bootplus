@@ -20,8 +20,8 @@ a.text-light:hover {
 	z-index: 2;
 }
 
-.form-control {
-	background-color: rgba(0, 32, 110, .7);
+#scroll-bg #remove-effect .form-control {
+	background-color: rgba(0, 32, 110, .5);
 	height: 4.5rem;
 	border: 2px solid white!important;
 	border-left: 0px!important;
@@ -31,7 +31,7 @@ a.text-light:hover {
 	font-size: 30px;
 }
 
-.form-control:focus {
+#scroll-bg #remove-effect .form-control:focus {
 	background-color: rgba(0, 32, 110, .5);
 	box-shadow: none;
 }
