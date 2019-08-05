@@ -1,0 +1,13 @@
+.overlay-carousel {
+	background-color: rgba(0, 32, 110, .8);
+	z-index: 2;
+}
+
+.p-100-70 {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+
+.btn-orange {
+	background-color: #fc6b2a!important;
+}
