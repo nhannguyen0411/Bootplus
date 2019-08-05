@@ -26,21 +26,22 @@ a.text-light:hover {
 	z-index: 2;
 }
 
-.form-control {
-	background-color: rgba(0, 32, 110, .7);
-	height: 4.5rem;
-	border: 2px solid white!important;
-	border-left: 0px!important;
-	border-right: 0px!important;
-	border-width: medium;
-	text-align: center;
-	font-size: 30px;
+#scroll-bg #remove-effect .form-control {
+  background-color: rgba(0, 32, 110, .5);
+  height: 4.5rem;
+  border: 2px solid white!important;
+  border-left: 0px!important;
+  border-right: 0px!important;
+  border-width: medium;
+  text-align: center;
+  font-size: 30px;
 }
 
-.form-control:focus {
-	background-color: rgba(0, 32, 110, .5);
-	box-shadow: none;
+#scroll-bg #remove-effect .form-control:focus {
+  background-color: rgba(0, 32, 110, .5);
+  box-shadow: none;
 }
+
 
 .input-float {
   z-index: 3;
@@ -117,6 +118,44 @@ a.text-light:hover {
   max-width: 570px;
 }
 
+/* carousel */
+
+.item-icon {
+  height: 50px!important;
+  width: 50px!important;
+  left: 50px!important;
+  top: 25px!important;
+}
+
+.overlay-carousel {
+  background-color: rgba(0, 32, 110, .9);
+  z-index: 2;
+}
+
+.pseu {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(14, 14, 15, .8);
+  left: 50px;
+  bottom: 16px;
+}
+
+.pseu::after {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(0, 32, 110, .9);
+  left: 15px;
+  top: 0px;
+  transform: skewX(-45deg);
+}
+
+.bg-bluer {
+  background-color: rgba(14, 14, 15, .8);
+}
+
 /*Main our latest new*/
 
 .overlay-new {
@@ -126,6 +165,11 @@ a.text-light:hover {
 
 .border-secondary {
   border-color: #DDD!important;
+}
+
+/* Main info contact*/
+.btn-orange {
+  background-color: #fc6b2a!important;
 }
 
 /*Apper menu-right*/
