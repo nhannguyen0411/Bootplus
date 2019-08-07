@@ -177,6 +177,12 @@ a.text-light:hover {
   text-align: center;
 }
 
+/* Footer */
+.footer {
+  background-image: url(http://bootstrapdevelop.com/tf/finnoplus/images/footer-bg-01.jpg);
+  z-index: -1;
+}
+
 /*Apper menu-right*/
 
 #menu-right {
