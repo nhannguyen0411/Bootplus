@@ -1,0 +1,7 @@
+.footer {
+	background-image: url(http://bootstrapdevelop.com/tf/finnoplus/images/footer-bg-01.jpg);
+}
+
+a.text-light:hover {
+	color: orange!important;
+}
