@@ -172,6 +172,11 @@ a.text-light:hover {
   background-color: #fc6b2a!important;
 }
 
+/* Main several logo */
+.center {
+  text-align: center;
+}
+
 /*Apper menu-right*/
 
 #menu-right {
